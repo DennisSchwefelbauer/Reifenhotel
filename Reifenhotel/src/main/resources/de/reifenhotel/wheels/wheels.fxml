@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="343.0" prefWidth="630.0" style="-fx-background-color: #e6e6fa;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.reifenhotel.wheels.ControllerNewWheels">
+   <children>
+      <Label layoutX="14.0" layoutY="6.0" text="Einlagerung">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Separator layoutX="-3.0" layoutY="53.0" prefHeight="0.0" prefWidth="550.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="45.0" />
+      <HBox alignment="CENTER" layoutY="57.0" prefHeight="20.0" prefWidth="545.0" spacing="5.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="57.0">
+         <children>
+            <Label fx:id="labelName" text="Vorname">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelSurname" text="Nachname">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label prefHeight="17.0" prefWidth="20.0" />
+            <Label fx:id="labelManufacturer" text="Hersteller" />
+            <Label fx:id="labelModel" text="Modell" />
+            <Label fx:id="labelPlate" prefHeight="17.0" prefWidth="90.0" text="Kennzeichen" />
+            <Label fx:id="labelVIN" prefHeight="17.0" prefWidth="178.0" text="Fahrgestellnummer" />
+         </children>
+      </HBox>
+      <HBox layoutY="147.0" prefHeight="25.0" prefWidth="600.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="147.0">
+         <children>
+            <Label prefHeight="17.0" prefWidth="15.0" />
+            <TextField fx:id="inputLocation" prefHeight="25.0" prefWidth="50.0" />
+            <Label prefHeight="17.0" prefWidth="15.0" />
+            <TextField fx:id="inputWidth" prefHeight="25.0" prefWidth="40.0" />
+            <Label alignment="CENTER" prefHeight="25.0" text="/" />
+            <TextField fx:id="inputHeight" prefHeight="25.0" prefWidth="32.0" />
+            <Label alignment="CENTER" prefHeight="25.0" prefWidth="10.0" text="R" />
+            <TextField fx:id="inputDiameter" prefHeight="25.0" prefWidth="30.0" />
+            <Label prefHeight="17.0" prefWidth="15.0" />
+            <TextField fx:id="inputLoadIndex" prefHeight="25.0" prefWidth="40.0" />
+            <TextField fx:id="inputSpeedIndex" prefHeight="25.0" prefWidth="25.0" />
+            <Label prefWidth="15.0" />
+            <ChoiceBox fx:id="inputSeason" prefWidth="100.0" />
+            <Label prefWidth="15.0" />
+            <TextField fx:id="inputDot" prefHeight="25.0" prefWidth="70.0" />
+            <Label prefWidth="15.0" />
+            <TextField fx:id="inputVL" prefHeight="25.0" prefWidth="32.0" />
+            <TextField fx:id="inputVR" prefHeight="25.0" prefWidth="32.0" />
+            <TextField fx:id="inputHL" prefHeight="25.0" prefWidth="32.0" />
+            <TextField fx:id="inputHR" prefHeight="25.0" prefWidth="32.0" />
+         </children>
+      </HBox>
+      <Label layoutX="31.0" layoutY="116.0" rotate="-45.0" text="Lagerort" />
+      <Label layoutX="88.0" layoutY="109.0" rotate="-45.0" text="Reifenbreite" />
+      <Label layoutX="129.0" layoutY="110.0" rotate="-45.0" text="Reifenhöhe" />
+      <Label layoutX="166.0" layoutY="107.0" rotate="-45.0" text="Durchmesser" />
+      <Label layoutX="218.0" layoutY="111.0" rotate="-45.0" text="Load Index" />
+      <Label layoutX="251.0" layoutY="109.0" rotate="-45.0" text="Speed Index" />
+      <Label layoutX="501.0" layoutY="130.0" text="VL" />
+      <Label layoutX="564.0" layoutY="130.0" text="HL" />
+      <Label layoutX="532.0" layoutY="130.0" text="VR" />
+      <Label layoutX="595.0" layoutY="130.0" text="HR" />
+      <HBox layoutY="212.0" prefHeight="25.0" prefWidth="550.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+         <children>
+            <TextField fx:id="inputTyreManufacturer" />
+            <TextField fx:id="inputTyreModel" />
+            <ChoiceBox fx:id="inputRim" prefWidth="150.0" />
+            <ChoiceBox fx:id="inputBolts" prefWidth="150.0" />
+            <ChoiceBox fx:id="inputCaps" prefWidth="150.0" />
+         </children>
+      </HBox>
+      <Label layoutX="327.0" layoutY="114.0" rotate="-45.0" text="Reifentyp" />
+      <Label layoutX="33.0" layoutY="194.0" text="Reifenhersteller" />
+      <Label layoutX="157.0" layoutY="194.0" text="Reifenmodell" />
+      <Label layoutX="283.0" layoutY="194.0" text="Felgentyp" />
+      <Label layoutX="395.0" layoutY="194.0" text="Radschrauben" />
+      <Label layoutX="523.0" layoutY="194.0" text="Radblenden" />
+      <ChoiceBox fx:id="inputDamage1" layoutX="10.0" layoutY="274.4" prefWidth="250.0" AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="10.0" />
+      <ChoiceBox fx:id="inputDamage2" layoutX="289.6" layoutY="274.4" prefWidth="250.0" AnchorPane.bottomAnchor="43.0" AnchorPane.rightAnchor="10.0" />
+      <Label layoutX="96.0" layoutY="257.0" text="Bemerkung" />
+      <Label layoutX="465.0" layoutY="257.0" text="Bemerkung" AnchorPane.rightAnchor="104.0" />
+      <Label layoutX="313.0" layoutY="314.0" text="Monteur" AnchorPane.rightAnchor="210.0" />
+      <ChoiceBox fx:id="choiceboxInOut" layoutX="209.0" layoutY="308.0" prefWidth="150.0" AnchorPane.rightAnchor="271.0" />
+      <ChoiceBox fx:id="choiceboxUser" layoutX="344.0" layoutY="308.0" prefWidth="150.0" AnchorPane.rightAnchor="50.0" />
+      <Label layoutX="97.0" layoutY="314.0" text="Ein- / Ausgelagert" AnchorPane.leftAnchor="97.0" />
+      <Button fx:id="saveButton" layoutX="404.0" layoutY="8.0" mnemonicParsing="false" onAction="#SaveButton_Clicked" text="Speichern und Drucken" AnchorPane.rightAnchor="80.0" AnchorPane.topAnchor="10.0" />
+      <Button fx:id="buttonBack" layoutX="403.0" layoutY="10.0" mnemonicParsing="false" onAction="#buttonBack_Clicked" text="Zurück" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0" />
+      <Label layoutX="428.0" layoutY="130.0" text="DOT" />
+   </children>
+</AnchorPane>

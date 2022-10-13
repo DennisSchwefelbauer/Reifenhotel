@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_9" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/MeineJavaDateien/Kursmaterialien+Java+Datenbanken(neu)/Kursmaterialien Java Datenbanken/4. Udemy Java Datenbank Kurs - (Beispiel) Java+ SQLite Datenbank + SQL/sqlite-jdbc-3.8.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/MeineJavaDateien/Kursmaterialien+Java+Datenbanken(neu)/Kursmaterialien Java Datenbanken/4. Udemy Java Datenbank Kurs - (Beispiel) Java+ SQLite Datenbank + SQL/sqlite-jdbc-3.8.6.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

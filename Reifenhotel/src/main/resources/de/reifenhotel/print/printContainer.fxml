@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" prefHeight="595.0" prefWidth="842.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.reifenhotel.output.PrintContainer">
+   <children>
+      <Label layoutX="223.0" layoutY="39.0" text="Kennzeichen" AnchorPane.leftAnchor="223.0" />
+      <Label layoutX="223.0" layoutY="69.0" text="Modell" AnchorPane.leftAnchor="223.0" />
+      <Line endX="227.5" layoutX="195.5" layoutY="26.0" startX="-100.0" AnchorPane.leftAnchor="95.0" />
+      <Line endX="16.833343505859375" layoutX="195.5" layoutY="55.0" startX="-100.0" AnchorPane.leftAnchor="95.0" AnchorPane.rightAnchor="629.1666564941406" />
+      <Line endX="16.833343505859375" layoutX="195.5" layoutY="84.0" startX="-100.0" AnchorPane.leftAnchor="95.0" AnchorPane.rightAnchor="629.1666564941406" />
+      <Line endX="70.0" layoutX="195.5" layoutY="114.0" startX="-100.0" AnchorPane.leftAnchor="95.0" />
+      <Line endX="24.0" layoutX="195.5" layoutY="143.0" startX="-100.0" AnchorPane.leftAnchor="95.0" AnchorPane.rightAnchor="622.0" />
+      <Line endX="226.0" layoutX="195.5" layoutY="173.0" startX="-100.0" AnchorPane.leftAnchor="95.0" AnchorPane.rightAnchor="581.1666564941406" />
+      <Line endX="24.0" layoutX="195.5" layoutY="202.0" startX="-100.0" AnchorPane.leftAnchor="95.0" AnchorPane.rightAnchor="622.0" />
+      <Line endX="24.0" layoutX="195.5" layoutY="232.0" startX="-100.0" AnchorPane.leftAnchor="95.0" />
+      <Line endX="31.5" layoutX="391.5" layoutY="55.0" startX="-100.0" AnchorPane.leftAnchor="291.0" />
+      <Line endX="31.5" layoutX="391.5" layoutY="84.0" startX="-100.0" AnchorPane.leftAnchor="291.0" />
+      <Label layoutX="223.0" layoutY="127.0" text="Reifenmodell" AnchorPane.leftAnchor="223.0" />
+      <Line endX="31.5" layoutX="391.5" layoutY="143.0" startX="-100.0" AnchorPane.leftAnchor="291.0" />
+      <Label layoutX="268.0" layoutY="98.0" text="DOT" AnchorPane.leftAnchor="268.0" />
+      <Line endX="31.5" layoutX="391.0" layoutY="114.0" startX="-100.0" />
+      <Label layoutX="221.0" layoutY="186.0" text="Radschrauben" />
+      <Line endX="31.5" layoutX="392.0" layoutY="203.0" startX="-100.0" />
+      <Label layoutX="255.0" layoutY="216.0" text="Datum" />
+      <Line endX="31.5" layoutX="392.0" layoutY="233.0" startX="-100.0" />
+      <Label layoutX="96.0" layoutY="246.0" text="VL" />
+      <Label layoutX="96.0" layoutY="266.0" text="HL" />
+      <Label layoutX="136.0" layoutY="266.0" text="mm HR" />
+      <Label layoutX="136.0" layoutY="246.0" text="mm VR" />
+      <Label layoutX="206.0" layoutY="246.0" text="mm" />
+      <Label layoutX="206.0" layoutY="266.0" text="mm" />
+      <Label fx:id="labelFl" layoutX="117.0" layoutY="246.0" text="#fl" />
+      <Label fx:id="labelRl" layoutX="117.0" layoutY="266.0" text="#rl" />
+      <Label fx:id="labelFr" layoutX="187.0" layoutY="246.0" text="#fr" />
+      <Label fx:id="labelRr" layoutX="187.0" layoutY="266.0" text="#rr" />
+      <Label layoutX="231.0" layoutY="256.0" text="Mechaniker" />
+      <Line endX="31.5" layoutX="392.0" layoutY="273.0" startX="-100.0" />
+      <Label fx:id="labelMechanic" layoutX="295.0" layoutY="256.0" text="#mechanic" />
+      <Label fx:id="labelLocation" layoutX="100.0" layoutY="39.0" text="#location" />
+      <Label fx:id="labelManufacturer" layoutX="100.0" layoutY="69.0" text="#manufacturer" />
+      <Label fx:id="labelVin" layoutX="100.0" layoutY="99.0" text="#vin" />
+      <Label fx:id="labelTyreManufacturer" layoutX="100.0" layoutY="128.0" text="#tyreManufacturer" />
+      <Label fx:id="labelCaps" layoutX="100.0" layoutY="187.0" text="#caps" />
+      <Label fx:id="labelRim" layoutX="100.0" layoutY="217.0" text="#rim" />
+      <Label fx:id="labelDate" layoutX="300.0" layoutY="217.0" text="#date" />
+      <Label fx:id="labelBolts" layoutX="300.0" layoutY="187.0" text="#bolts" />
+      <Label fx:id="labelDot" layoutX="300.0" layoutY="98.0" text="#dot" />
+      <Label fx:id="labelTyreModel" layoutX="300.0" layoutY="127.0" text="#tyreModel" />
+      <Label fx:id="labelModel" layoutX="300.0" layoutY="68.0" text="#model" />
+      <Label fx:id="labelPlate" layoutX="300.0" layoutY="38.0" text="#plate" />
+      <HBox alignment="CENTER" layoutX="131.0" layoutY="1.0" prefHeight="35.0" prefWidth="200.0">
+         <children>
+            <Label fx:id="labelName" alignment="CENTER" text="#customer">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="93.0" layoutY="148.0" prefHeight="35.0" prefWidth="330.0" spacing="5.0">
+         <children>
+            <Label fx:id="labelWidth" text="#w" />
+            <Label text="/">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label fx:id="labelHeight" text="#h" />
+            <Label text="R">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label fx:id="labelDiameter" text="#d" />
+            <Label text="        " />
+            <Label fx:id="labelLoadIndex" text="#l" />
+            <Label fx:id="labelSpeedIndex" text="#s" />
+         </children>
+      </HBox>
+      <Label layoutX="23.0" layoutY="10.0" text="Kundenname" />
+      <Label layoutX="49.0" layoutY="39.0" text="Lagerort" />
+      <Label layoutX="43.0" layoutY="68.0" text="Hersteller" />
+      <Label layoutX="73.0" layoutY="98.0" text="VIN" />
+      <Label layoutX="11.0" layoutY="127.0" text="Reifenhersteller" />
+      <Label layoutX="29.0" layoutY="156.0" text="Reifengröße" />
+      <Label layoutX="33.0" layoutY="186.0" text="Radkappen" />
+      <Label layoutX="41.0" layoutY="215.0" text="Felgentyp" />
+      <Label layoutX="35.0" layoutY="244.0" text="Profiltiefen" />
+      <Line endX="-60.833343505859375" layoutX="205.5" layoutY="261.0" startX="-87.16665649414062" />
+      <Line endX="-60.833343505859375" layoutX="205.5" layoutY="281.0" startX="-87.16665649414062" />
+      <Line endX="-60.833343505859375" layoutX="275.5" layoutY="281.0" startX="-87.16665649414062" />
+      <Line endX="-60.833343505859375" layoutX="275.5" layoutY="261.0" startX="-87.16665649414062" />
+   </children>
+</AnchorPane>
