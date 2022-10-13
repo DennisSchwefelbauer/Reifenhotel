@@ -37,3 +37,5 @@ Es ist noch nicht vollständig fertig und wird nach wie vor weiterentwickelt.
 
 * Bei der Suchfunktion ist eine Suchbedingung auszuwählen
 
+* Die Funktion "Datei -> Filtere nach Profilteiefe" ist für unseren Lageristen, um noch einmal alle Radsätze nach zu geringer Profiltiefe zu filtern und dafür Kostenvoranschläge zu erstellen.
+
